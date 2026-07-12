@@ -1,5 +1,5 @@
 # Projeto_CD_2026.02_Minigolfe
-Projeto Final de Circuitos Digitas, 2º Semestre de 2026, com o professor Fábio Cappabianco, ICT Unifesp. Desenvolvido no software de simulação de circuitos digitas WiRedPanda.
+Projeto Final de Circuitos Digitas, 1º Semestre de 2026, com o professor Fábio Cappabianco, ICT Unifesp. Desenvolvido no software de simulação de circuitos digitas WiRedPanda.
 
 - Lucas Gabriel de Souza Soares (185286)
 - Misael Denis de Abreu Leite (185307)
@@ -25,6 +25,15 @@ O campo do jogo é uma matriz de LEDs 8x24, que conta com obstáculos (pedras e 
 2 - ângulo de lançamento (8 direções da rosa dos ventos)
 O ângulo de lançamento define como será o incremento/decremento nas coordenadas da posição da bolinha a cada ciclo do clock. 
 
-...
+# Como jogar
+
+- Inicialmente, a bolinha estará oscilando no eixo X, aguardando que seja selecionada a posição inicial de lançamento. Apertar \[X\] para escolher.
+- Agora a bolinha estará parada, esperando que seja escolhido o ângulo (direção) de lançamento. A direção atual pode ser visualizada na rosa dos ventos ao lado. Os ângulos são alternados muito rapidamente, o que foi feito para elevar o nível de dificuldade. Apertar \[X\] para escolher.
+- A bolinha tem cerca de 7 segundos para atingir o buraco. Uma vez que o cronômetro chega em 7, o jogo reinicia. Se a bolinha encostar em uma bomba, ela explodirá e o jogo irá reiniciar quando o cronômetro chegar em 7. Ou, é possível simplesmente apertar R (botão de reset), o que fará com que o jogo reinicie imediatamente. 
 
 # Dificuldades e melhorias
+
+- Tivemos dificuldades em preparar o projeto para o nível 3 desde o início. Deveríamos ter usado multiplexadores na matriz de ANDs, a fim de fazer a transição entre níveis, mas não tivemos essa visão logo de cara.
+- A bolinha pisca quando colide com pedras, o que também não soubemos contornar uma vez que o circuito sequencial ficou grande e complexo.
+- Tivemos dificuldade em lidar com múltiplas fontes de dados para o mesmo registrador, o que é essencial para a mecânica do jogo.
+- Tivemos dificuldade em integrar a máquina de estados que controla o fluxo do jogo com todos os outros elementos combinacionais do circuito.
