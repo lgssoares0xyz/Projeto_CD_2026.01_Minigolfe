@@ -7,11 +7,11 @@ Projeto Final de Circuitos Digitas, 1º Semestre de 2026, com o professor Fábio
 
 # Níveis
 
-- Nível 1 (Básico)
+- Nível 1 (Básico) ✅
 Golfe com obstáculos e lançamento em ângulo a partir de uma posição inicial horizontal fixa. Apenas uma fase.
-- Nível 2 (Desejado)
+- Nível 2 (Desejado) ✅
 Todos os anteriores, mas com posição inicial variável (jogador pode escolher a posição horizontal de lançamento). Apenas uma fase.
-- Nível 3 (Ambicioso)
+- Nível 3 (Ambicioso) ❌
 Todos os anteriores, mas com 3 fases e um sistema de vidas para reset do jogo no game over.
 
 # Vídeo demonstrativo
