@@ -16,7 +16,9 @@ Todos os anteriores, mas com 3 fases e um sistema de vidas para reset do jogo no
 
 # Vídeo demonstrativo
 
-(Link pro vídeo no YouTube)
+<video src="https://www.youtube.com/watch?v=xaYWrRXTZXA" width="100%" controls>
+  Seu navegador não suporta o player de vídeo.
+</video>
 
 # Sobre a implementação
 
